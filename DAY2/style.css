@@ -1,0 +1,14 @@
+.A{
+    text-align: center;
+    color:black;
+    background-color:lightblue;
+padding: 1%;
+border-radius:20px;
+margin-top: 2px;
+}
+.B{
+  width: 250px;
+  border: 15px solid rgb(235, 128, 142);
+  padding: 50px;
+  margin: 20px;
+}
