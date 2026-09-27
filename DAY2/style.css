@@ -7,8 +7,33 @@ border-radius:20px;
 margin-top: 2px;
 }
 .B{
-  width: 250px;
+  width: auto;
   border: 15px solid rgb(235, 128, 142);
   padding: 50px;
-  margin: 20px;
+  margin-left: 20px;
+}
+.C{
+  width:700px;
+  border:15px solid gold;
+  padding:25px;
+  margin: 10px;
+  outline-style: dashed;
+  outline-color:blueviolet;
+  background-color:rgb(134, 107, 107);
+  opacity:0.75;
+}
+.D{
+outline-style: double;
+outline-color:firebrick;
+outline-width:medium;
+outline-offset:8px;
+}
+a:link{
+  color:red;
+}
+a:visited{
+  color:greenyellow;
+}
+a:hover{
+  color:chocolate;
 }
