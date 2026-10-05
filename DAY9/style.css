@@ -1,0 +1,33 @@
+ 
+.CONTAINER{
+    background-color: aqua;
+    font-size: medium;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 5px;
+    flex-direction: column;
+    display:inline-flex;
+    height: 250px;
+    padding: 30px;
+    align-items: center;
+}
+ 
+.CONTAINER h3{
+    padding: 10px;
+    margin:5px;
+    border-style: dotted;
+    border-radius: 5px;
+    background-color: chocolate;
+}
+.order{
+    color: red;
+    text-align: center;
+    font-size: large;
+    font-family: fantasy;
+}
+a:hover{
+    background-color:limegreen;
+}
+ 
+ 
