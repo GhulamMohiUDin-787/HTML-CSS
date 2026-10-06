@@ -1,0 +1,85 @@
+ 
+.CONTAINER{
+    background-color:beige;
+    font-size: medium;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 5px;
+    flex-direction: column;
+    height: 250px;
+    padding: 30px;
+    align-items: center;
+}
+ 
+.CONTAINER h3{
+    padding: 10px;
+    margin:5px;
+    border-style: dotted;
+    border-radius: 5px;
+    background-color: chocolate;
+}
+.order{
+    color: rgb(126, 49, 49);
+    text-align: center;
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+    border-style: double;
+    border-radius: 10px;
+    padding: 20px;
+    border-color: chocolate;
+    border-width: 10px;
+    width: 150px;
+    
+}
+a:hover{
+    background-color:rgb(160, 95, 34);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+a:active{
+    background-color: yellow;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+ bs:active{
+    background-color: crimson;
+ }
+ .students{
+    color:black;
+    background-color: darkgray;
+    width: 200px;
+    text-align: center;
+    border-radius: 50px;
+     animation: mymove 5s infinite;
+ }
+ li:hover{
+    background-color: azure;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ li:active{
+    background-color: coral;
+    font-size: 40px;
+    font-family: fantasy;
+ }
+ .nav{
+    border-radius: 10px;
+    background-color: rgb(255, 224, 177);
+    color:rgb(206, 185, 160);
+
+ }
+ .nav:hover{
+    color:rgb(172, 49, 49);
+    background-color: beige;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ .CONTAINER h3:hover{
+color:rgb(172, 49, 49);
+    background-color: rgb(206, 206, 50);
+    font-style: oblique;
+ }
+  
+ 
