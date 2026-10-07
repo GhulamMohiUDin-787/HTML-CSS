@@ -42,8 +42,10 @@ Flex-direction:column;
 
 .nav-top {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
+    margin-left: 2px;
+    color: rgb(43, 40, 40);
 }
 
 .nav {
@@ -114,5 +116,48 @@ Flex-direction:column;
     border-color: rgb(201, 33, 33);
     color:rgb(184, 55, 134);
     width: 400pxs;
-    font-size: 18px;
+    font-size: 30px;
  }
+.Pic {
+    padding: 10px;
+    background-color: rgb(187, 146, 146);
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.pic1 {
+    border-style: dotted;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.pic2 {
+    border-style: dotted;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.pic3 {
+    border-style: dotted;
+    border-radius: 10px;
+    padding: 10px;
+}
+.classa::after{
+    content:"Rember it";
+    color: rgb(197, 60, 140);
+    font-weight: bold;
+    background-color: black;
+}
+.classb::first-line{
+    color: rgb(76, 196, 102);
+}
+.classb::first-letter{
+    font-size: 200%;
+    color: rgb(35, 41, 41);
+}
+ 
+.classc::marker{
+    color: red;
+  font-size: 23px;
+}
